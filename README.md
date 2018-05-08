@@ -21,7 +21,7 @@ Download the dataset DeepFashion from http://mmlab.ie.cuhk.edu.hk/projects/DeepF
 
 Then put the folder ```In-shop Clothes Retrieval Benchmark/``` inside the project directory (```poseGuidedImgGeneration/```), and then rename ```In-shop Clothes Retrieval Benchmark/``` to ```dataset/```. Then extract the ```img.zip``` file in the ```dataset/Img/``` directory.      
 
-Then download the keypoint locations file ```img-keypoints.zip``` prepared by us (using OpenPose, CVPR2017) from https://drive.google.com/file/d/1DwRPXCyVYBmtGa0hO3JlYkrD709s6zca/view?usp=sharing, put it inside the directory ```dataset/```, and extract it.  
+Then download the keypoint locations file ```img-keypoints.zip``` prepared by us (using OpenPose, CVPR2017) from https://drive.google.com/file/d/1DwRPXCyVYBmtGa0hO3JlYkrD709s6zca/view?usp=sharing, put it inside the directory ```dataset/Img/```, and extract it.
 
 Your file directory should now look like this:    
 
@@ -39,7 +39,7 @@ Download ```model.tar.gz``` from https://drive.google.com/file/d/1z0mtWRSy_ObQ5N
 ```
 tar -xvzf model.tar.gz
 rm -rf logs
-mv model logs
+mv "Untitled Folder" logs
 python3 demo.py
 ```
 # Train from scratch
